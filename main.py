@@ -1,5 +1,5 @@
 def collatz_Conjecture(num):
-    while num < 1:
+    while num > 1:
         print(num)
         if (num % 2 == 0):
             num = num//2
